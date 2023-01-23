@@ -32,14 +32,16 @@ body {
 }
 
 body section {
-  text-align:center;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+  text-align:justify;
   float: left;
   background-color: white;
   padding: 20px;
-  margin-top: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
-  overflow-wrap: break-word;
+  width: 10%;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  overflow-wrap: normal;
 }
 
 section button {
@@ -47,12 +49,11 @@ section button {
 }
 
 footer section {
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
   position: absolute;
-  text-align: center;
+  text-align: justify;
   background-color: white;
-  bottom: 0;
-  width: 100%;
+  bottom: 30px;
+  width: 80%;
   margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
 }
